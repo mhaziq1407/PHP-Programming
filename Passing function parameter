@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+
+
+
+
+  <?php
+
+    function sayhi($name, $age){
+
+      echo "Hello $name you are $age old<br>";
+
+    }
+
+    sayHi("mike",14);
+    sayHi("Haziq",13);
+    sayHi("Ali",32);
+
+
+   ?>
+
+
+
+
+</body>
+</html>
