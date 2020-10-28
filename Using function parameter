@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+
+
+
+</form>
+
+  <?php
+
+    function sayhi($name){
+
+      echo "Hello $name";
+
+    }
+
+    sayHi("mike");
+    sayHi("Haziq");
+    sayHi("Ali");
+
+
+   ?>
+
+
+
+
+</body>
+</html>
