@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+<form action = "site.php" method = "post">
+Please enter your grade:
+<input type = "text" name= "score"><br>
+<input type = "submit"><br>
+
+</form>
+
+  <?php
+
+  $myscore = $_POST["score"];
+
+  switch($myscore){
+
+    case "A":
+      echo "You did Amazing";
+    break;
+
+    case "B":
+      echo "keep improve";
+    break;
+
+    case "C":
+      echo "dont give up";
+    break;
+
+    case "D":
+      echo "You need to study hard";
+    break;
+
+    case "E":
+      echo "You are fail";
+    break;
+
+    default:
+
+      echo "Invalid Grade";
+
+
+  }
+
+
+
+  ?>
+
+
+
+</body>
+</html>
