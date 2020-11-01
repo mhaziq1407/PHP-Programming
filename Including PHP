@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+
+<?php
+
+$title = "Nama saya Muhammad Haziq";
+
+$myage = " Umur saya 27 tahun";
+
+$wordcount = " 400";
+
+include "article-header.php";
+
+
+ ?>
+<h3><?php echo $title; ?></h3>
+
+<h1><?php echo $myage; ?></h1>
+
+word count : <?php echo $wordcount;?>
+
+
+
+</body>
+</html>
