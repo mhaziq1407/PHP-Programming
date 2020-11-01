@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+
+ <?php
+
+ $luckynumber = array(2,4,6,7,8,10);
+
+ for ($i=0; $i <=count($luckynumber); $i = $i +1)
+
+ echo "$luckynumber[$i]<br>";
+
+
+  ?>
+
+
+
+</body>
+</html>
