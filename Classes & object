@@ -21,12 +21,12 @@
     var $Pages;
   }
 
-  $book1 = new Book;
+  $book1 = new Book();
   $book1->Title = "Harry Pother";
   $book1->Author = " Haziq";
   $book1->Pages= "200";
 
-  $book2 = new Book;
+  $book2 = new Book();
   $book2->Title= "Si kambing";
   $book2->Author= " Acap";
   $book2->Page="300";
