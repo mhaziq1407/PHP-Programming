@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title> </title>
+
+</head>
+
+
+<body>
+
+
+<?php
+
+#create data types
+
+  class Book{
+
+    var $Title;
+    var $Author;
+    var $Pages;
+
+    function __construct($aTitle,$aAuthor,$aPages){
+      $this->Title = $aTitle;
+      $this->Author = $aAuthor;
+      $this->Pages = $aPages;
+    }
+
+  }
+
+  $book1 = new Book("Harry Pother"," Haziq",200);
+
+  $book2 = new Book("Si kambing"," Acap",300);
+
+  echo $book1->Title;
+
+ ?>
+
+
+
+</body>
+</html>
