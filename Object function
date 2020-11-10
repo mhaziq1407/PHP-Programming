@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+
+<title></title>
+
+
+</head>
+
+
+<body>
+
+<?php
+
+#Create data types
+
+class student{
+
+  var $name;
+  var $major;
+  var $gpa;
+
+  function __construct($name, $major, $gpa){
+
+      $this ->name = $name;
+      $this ->major = $major;
+      $this ->gpa = $gpa;
+
+
+
+  }
+
+  function getHonor(){
+
+    if($this-> gpa >= 3.5){
+
+      return "True";
+    }
+
+    return "false";
+  }
+}
+
+$student1 = new student("haziq", "business", 3.6);
+$student2 = new student("amran", "art", 2.8);
+
+echo $student2->getHonor();
+
+ ?>
+
+
+
+</body>
+
+
+
+</html>
