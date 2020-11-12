@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+
+<title></title>
+
+
+</head>
+
+
+<body>
+
+<?php
+
+#Create data types
+
+class movie{
+
+  public $title;
+  private $rating;
+
+  function __construct($title,$rating){
+
+    $this ->title = $title;
+    $this ->rating=$rating;
+
+  }
+
+function getRating(){
+
+  return $this ->rating;
+}
+
+function setRating($rating){
+
+  $this->rating = $rating;
+
+}
+
+
+}
+
+$avengers = new movie("Thor", 3.5);
+
+$avengers ->setRating("testing");
+echo $avengers ->getRating();
+
+
+
+ ?>
+
+
+
+</body>
+
+
+
+</html>
